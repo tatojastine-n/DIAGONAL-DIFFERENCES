@@ -1,2 +1,2 @@
 # DIAGONAL-DIFFERENCES
-•	This program computes the absolute difference between the sums of the primary diagonal (top-left to bottom-right) and secondary diagonal (top-right to bottom-left) in a square matrix. It reads the matrix size n and the n x n elements into a 2D vector, then uses a loop in diagonalDifference to sum the diagonals in O(n) time before returning their absolute difference. The main function processes input strings with ltrim, rtrim, and split helpers, and outputs the result to a file.
+The program accepts a square matrix of integers from the user and sends it to the `diagonalDifference` function, which computes the sums of the primary and secondary diagonals. It then returns the absolute difference between these sums, which is displayed as the output.
